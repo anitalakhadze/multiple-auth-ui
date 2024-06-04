@@ -6,32 +6,11 @@
   text-align: center;
 }
 
-.profile-info .profile-avatar img {
-  border-radius: 50%;
-  max-width: 250px;
-}
-
 .profile-info .profile-name {
   font-weight: 500;
   font-size: 18px;
 }
 
-.profile-info .profile-email {
+.profile-info .profile-field {
   font-weight: 400;
-}
-
-.text-avatar {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  vertical-align: middle;
-  text-align: center;
-  border-radius: 50%;
-  background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
-}
-
-.text-avatar span {
-  line-height: 200px;
-  color: #fff;
-  font-size: 3em;
 }

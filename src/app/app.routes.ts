@@ -1,6 +1,6 @@
 import {Routes} from '@angular/router';
 import {AuthGuard} from "./auth/auth.guard";
-import {Oauth2RedirectHandlerComponent} from "./user/oauth2-redirect-handler/oauth2-redirect-handler.component";
+import {Oauth2RedirectHandlerComponent} from "./auth/oauth2-redirect-handler/oauth2-redirect-handler.component";
 import {LoginComponent} from "./user/login/login.component";
 import {DashboardComponent} from "./user/dashboard/dashboard.component";
 import {ProfileComponent} from "./user/profile/profile.component";

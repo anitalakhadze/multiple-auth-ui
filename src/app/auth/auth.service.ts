@@ -14,22 +14,13 @@ export class AuthService {
 
   constructor(public router: Router) {
     const token = this.getToken();
-    if (token !== null && (this.parsedToken === null || this.parsedToken === undefined)) {
+    if (token !== null && this.parsedToken == null) {
       this.parsedToken = jwtDecode(token);
     }
-
   }
 
   getToken() {
     return localStorage.getItem(ACCESS_TOKEN);
-  }
-
-  setAuthenticated(authenticated: boolean) {
-    this.authenticated = authenticated;
-  }
-
-  setCurrentUser(currentUser: any) {
-    this.currentUser = currentUser;
   }
 
   setAuthentication(accessToken: string) {
